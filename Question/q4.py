@@ -3,6 +3,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 image_path = os.path.abspath(os.path.join(script_dir, '..', 'a1images', 'women_standing_in_dark.png')) 
 
