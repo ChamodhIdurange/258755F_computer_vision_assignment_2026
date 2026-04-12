@@ -52,7 +52,7 @@ def calculate_normalized_ssd(img1, img2):
 
     normalized_ssd = squared_diff / norm_factor
     return normalized_ssd
-# ==========================================
+
 # Testing the Algorithm
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
